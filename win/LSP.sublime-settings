@@ -1,0 +1,15 @@
+{
+	"lsp_format_on_save": true,
+	"show_diagnostics_panel_on_save": 1,
+
+	"clients": {
+		"gopls": {
+			"enabled": true,
+			"selector": "source.go",
+			"command": ["C:\\Gocode\\bin\\gopls.exe"],
+			"env": {
+				"GOPATH": "C:\\Gocode\\",
+			}
+		}
+	}
+}

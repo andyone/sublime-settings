@@ -1,15 +1,20 @@
 {
 	"lsp_format_on_save": true,
-	"show_diagnostics_panel_on_save": 1,
-
+	"show_diagnostics_panel_on_save": 0,
+	"show_references_in_quick_panel": true,
+	"inhibit_snippet_completions": true,
+	"inhibit_word_completions": true,
 	"clients": {
 		"gopls": {
 			"enabled": true,
-			"selector": "source.go",
 			"command": ["C:\\Gocode\\bin\\gopls.exe"],
+			"selector": "source.go",
+			"analyses": {
+				"composites": false,
+			},
 			"env": {
 				"GOPATH": "C:\\Gocode\\",
-			}
-		}
-	}
+			},
+		},
+	},
 }

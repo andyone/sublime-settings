@@ -1,20 +1,18 @@
 {
-	"lsp_format_on_save": true,
-	"show_diagnostics_panel_on_save": 0,
-	"show_references_in_quick_panel": true,
-	"inhibit_snippet_completions": true,
-	"inhibit_word_completions": true,
-	"clients": {
-		"gopls": {
-			"enabled": true,
-			"command": ["C:\\Gocode\\bin\\gopls.exe"],
-			"selector": "source.go",
-			"analyses": {
-				"composites": false,
-			},
-			"env": {
-				"GOPATH": "C:\\Gocode\\",
-			},
-		},
-	},
+  "lsp_format_on_save": true,
+  "show_diagnostics_panel_on_save": 0,
+  "show_references_in_quick_panel": true,
+  "inhibit_snippet_completions": true,
+  "inhibit_word_completions": true,
+  "link_highlight_style": "none",
+  "diagnostics_gutter_marker": "dot",
+  "clients": {
+    "gopls": {
+      "enabled": true,
+      "selector": "source.go",
+      "env": {
+        "GOPATH": "C:\\Users\\andy\\Workspace",
+      },
+    },
+  },
 }

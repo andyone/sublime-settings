@@ -1,15 +1,21 @@
 {
-	"lsp_format_on_save": true,
-	"show_diagnostics_panel_on_save": 1,
-
-	"clients": {
-		"gopls": {
-			"enabled": true,
-			"selector": "source.go",
-			"command": ["/Users/andy/projects/gocode/bin/gopls"],
-			"env": {
-				"GOPATH": "/Users/andy/projects/gocode/",
-			}
-		}
-	}
+  "lsp_format_on_save": true,
+  "show_diagnostics_panel_on_save": 0,
+  "show_references_in_quick_panel": true,
+  "inhibit_snippet_completions": true,
+  "inhibit_word_completions": true,
+  "link_highlight_style": "none",
+  "diagnostics_gutter_marker": "dot",
+  "clients": {
+    "gopls": {
+      "enabled": true,
+      "selector": "source.go",
+      "command": [
+        "/Users/andy/projects/gocode/bin/gopls"
+      ],
+      "env": {
+        "GOPATH": "/Users/andy/projects/gocode/"
+      }
+    }
+  }
 }

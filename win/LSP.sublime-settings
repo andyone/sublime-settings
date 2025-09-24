@@ -11,7 +11,7 @@
       "enabled": true,
       "selector": "source.go",
       "env": {
-        "GOPATH": "C:\\Users\\andy\\Workspace",
+        "GOPATH": "C:\\Users\\andy\\Workspace"
       },
     },
   },
